@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+
+ul {
+    list-style: none;
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    padding: 0 50px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(188, 12, 7);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    
+}
+
+.logo {
+    width: 150px;
+    height: 45px;
+}
+
+.logoPhone {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    
+    font-size: 18px;
+
+}
+
+.nav-link {
+    transition: 0.5s;
+    transform: scale(2);
+}
+
+.nav-link:hover {
+    color: #c21500;
+}
+
+.nav-link:focus {
+    color: #ffc500;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 190px;
+    height: 35px;
+    padding: 5px;
+    border: 1px solid #a59a9a; 
+    border-radius: 17.5px;
+    transition: 0.1s;
+}
+
+.search {
+    width: 150px;
+    height: 25px;
+    border: 1px solid #a59a9a;
+    background-color: #d4d4d4;
+    border-radius: 12.5px;
+    text-align: center;
+    transition: 0.1s;
+}
+
+
+.confirm {
+    width: 25px;
+    height: 25px;
+    border: 1px solid  #aaaaaa;
+    background-color: #d4d4d4;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.search:hover, form:hover, .confirm:hover {
+    box-shadow: 2px 2px 2px rgba(167, 165, 165, 0.5);
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+.people-profession {
+    color:rgb(61, 42, 165);
+    font-weight: 900;
+}
+
+.people-part {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    padding-top: 100px;
+    padding-left: 100px;
+    background-color: #fbfbfb;
+    background-image: url(../img/design.png);
+    background-size: 20%;
+    height: 600px;
+    width: 100%;
+}
+
+.people {
+    height: 170px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.peoples {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #585858;
+
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.backlogo {
+    width: 175px;
+    height: 40px;
+}
+
+.location {
+    margin-top: 5px;
+    border-top: 3px solid #616161;
+}
